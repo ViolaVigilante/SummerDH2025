@@ -16,22 +16,38 @@
     </style>
   </head>
   <body>
+    
     <h1>Why Humans Are Just Inferior Snails</h1>
-    <h2 style="color:Tomato;">Click on each picture to learn more!</h2>
-    <p>Snail supremacy.
-    </p>
+    <h2>Click on each picture to learn more!</h2>
+    <h2 style="color:Tomato;">Snails Visited: <h2 class="pageCounter"></h2></h2>
+    
     <h2>Exhibit A: smol</h2>
     <a href="Subpages/Exhibit_A"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwELmi7bFrly-6wlSKvbX-adGQc9qMxCFyNg&s"></a>
-    <p>Smol is good.
-    </p>
+    <p>Smol is good.</p>
+    
     <h2>Exhibit B: Has house, will travel</h2>
     <a href="Subpages/Exhibit_B"><img src="Images/snail.jpg"></a>
-    <p>Very house, much comfy
-    </p>
+    <p>Very house, much comfy</p>
+    
     <h2>Exhibit C: Everyone wants to be snailfriends</h2>
     <a href="Subpages/Exhibit_C"><img src="Images/Millie%20is%20a%20snailfriend.jpg"></a>
     <p>This is Millie. Millie is a snailfriend. Be like Millie.</p>
-  </body>
-</html>
+
+    <script>
+      
+      let pageCounter = 0;
+
+      const Exhibit_A = document.querySelector(".Exhibit_A");
+      const Exhibit_B = document.querySelector(".Exhibit_B");
+      const Exhibit_C = document.querySelector(".Exhibit_C");
+      
+      function increaseCounter() {
+        Exhibit_A.addEventListener("click", increaseCounter);
+        Exhibit_B.addEventListener("click", increaseCounter);
+        Exhibit_C.addEventListener("click", increaseCounter);
+        pageCounter++;
+      }
+      
+    </script>
   </body>
 </html>

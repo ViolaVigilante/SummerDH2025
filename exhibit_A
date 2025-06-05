@@ -2,6 +2,13 @@
 <html>
   <head>
     <link rel="stylesheet" href="https://kam535.github.io/sample-pages/assets/css/styles.css">
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      height: 100%;
+    }
     p {
       text-align: center;
     }
@@ -9,5 +16,6 @@
   <body>
     <h1>Exhibit A: smol</h1>
     <p>PLACEHOLDER TEXT</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwELmi7bFrly-6wlSKvbX-adGQc9qMxCFyNg&s">
   </body>
 </html>

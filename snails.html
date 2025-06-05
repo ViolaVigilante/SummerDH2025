@@ -35,16 +35,16 @@
 
     <script>
 
-      Exhibit_A.addEventListener("click", increaseCounter);
-      Exhibit_B.addEventListener("click", increaseCounter);
-      Exhibit_C.addEventListener("click", increaseCounter);
-      
       let pageCounter = 0;
       document.getElementById("pageCounter").innerHTML = pageCounter
 
       const Exhibit_A = document.querySelector(".Exhibit_A");
       const Exhibit_B = document.querySelector(".Exhibit_B");
       const Exhibit_C = document.querySelector(".Exhibit_C");
+
+      Exhibit_A.addEventListener("click", increaseCounter);
+      Exhibit_B.addEventListener("click", increaseCounter);
+      Exhibit_C.addEventListener("click", increaseCounter);
       
       function increaseCounter() {
         pageCounter++;

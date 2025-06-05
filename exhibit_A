@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://kam535.github.io/sample-pages/assets/css/styles.css">
+    p {
+      text-align: center;
+    }
+  </head>
+  <body>
+    <h1>Exhibit A: smol</h1>
+    
+  </body>
+</html>

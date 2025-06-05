@@ -1,3 +1,5 @@
+// pageCounter is correctly increasing when pictures are clicked, but display on page isn't changing
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -19,7 +21,7 @@
     
     <h1>Why Humans Are Just Inferior Snails</h1>
     <h2>Click on each picture to learn more!</h2>
-    <h2 style="color:Tomato;">Snails Visited: </h2> <h2 id="pageCounter"></h2>
+    <h2 style="color:Tomato;">Snails Visited: <h2 id="pageCounter"></h2></h2>
     
     <h2>Exhibit A: smol</h2>
     <a id="Exhibit_A" href="Subpages/Exhibit_A" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwELmi7bFrly-6wlSKvbX-adGQc9qMxCFyNg&s"></a>
@@ -40,15 +42,6 @@
       document.getElementById("Exhibit_A").addEventListener("click", increaseCounter);
       document.getElementById("Exhibit_B").addEventListener("click", increaseCounter);
       document.getElementById("Exhibit_C").addEventListener("click", increaseCounter);
-
-
-      //const Exhibit_A = document.querySelector(".Exhibit_A");
-      //const Exhibit_B = document.querySelector(".Exhibit_B");
-      //const Exhibit_C = document.querySelector(".Exhibit_C");
-
-      //Exhibit_A.addEventListener("click", increaseCounter);
-      //Exhibit_B.addEventListener("click", increaseCounter);
-      //Exhibit_C.addEventListener("click", increaseCounter);
       
       function increaseCounter() {
         pageCounter++;

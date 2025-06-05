@@ -34,6 +34,10 @@
     <p>This is Millie. Millie is a snailfriend. Be like Millie.</p>
 
     <script>
+
+      Exhibit_A.addEventListener("click", increaseCounter);
+      Exhibit_B.addEventListener("click", increaseCounter);
+      Exhibit_C.addEventListener("click", increaseCounter);
       
       let pageCounter = 0;
       document.getElementById("pageCounter").innerHTML = pageCounter
@@ -43,9 +47,6 @@
       const Exhibit_C = document.querySelector(".Exhibit_C");
       
       function increaseCounter() {
-        Exhibit_A.addEventListener("click", increaseCounter);
-        Exhibit_B.addEventListener("click", increaseCounter);
-        Exhibit_C.addEventListener("click", increaseCounter);
         pageCounter++;
       }
       
